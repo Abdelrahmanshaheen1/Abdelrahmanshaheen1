@@ -54,6 +54,9 @@ A full client-side and server-side security assessment of a deliberately vulnera
 🏥 **[Healthcare Fraud Detection (ML)](https://github.com/Abdelrahmanshaheen1/Healthcare-Fraud-Detection-ML)**
 End-to-end fraud detection pipeline comparing five classification models (Logistic Regression, XGBoost, Random Forest, SVM, Decision Tree), with full ROC-AUC/precision/recall evaluation rather than just headline accuracy.
 
+📈 **[FlyRank ML Internship Capstone](https://github.com/Abdelrahmanshaheen1/flyrank-ml-internship)**
+Ranking 101,441 webpages by risk of an impressions decline, evaluated on a holdout grouped by client. The top-20 list from a Logistic Regression model was right 17 times out of 20 (Precision@20 0.85) against 10 out of 20 (0.50) for a simple CTR baseline, and the write-up spells out what the model cannot show.
+
 🔒 **[Secure Auction — Pedersen Commitments](https://github.com/Abdelrahmanshaheen1/Secure-Auction-Pedersen-Commitments)**
 A cryptographic sealed-bid auction protocol built from scratch: secret sharing, Pedersen commitments, zero-knowledge range proofs, and secure multi-party computation.
 
@@ -67,13 +70,15 @@ Three projects in one: clustering validation (Silhouette/Davies-Bouldin/Calinski
 | [Ethical-Hacking-Pentesting-Labs](https://github.com/Abdelrahmanshaheen1/Ethical-Hacking-Pentesting-Labs) | Offensive Security | 7 labs, full attack chain |
 | [OWASP-Juice-Shop-Security-Assessment](https://github.com/Abdelrahmanshaheen1/OWASP-Juice-Shop-Security-Assessment) | Offensive Security | 12 findings, client + server side |
 | [Healthcare-Fraud-Detection-ML](https://github.com/Abdelrahmanshaheen1/Healthcare-Fraud-Detection-ML) | Machine Learning | 5-model comparison, full evaluation |
+| [flyrank-ml-internship](https://github.com/Abdelrahmanshaheen1/flyrank-ml-internship) | Machine Learning | Capstone: page-review ranking, Precision@20 0.85 vs 0.50 baseline |
 | [Advanced-Machine-Learning-Projects](https://github.com/Abdelrahmanshaheen1/Advanced-Machine-Learning-Projects) | Machine Learning | Clustering, captioning, emotion classification |
 | [Employee-Attrition-Classification](https://github.com/Abdelrahmanshaheen1/Employee-Attrition-Classification) | Machine Learning | Accuracy-paradox case study on imbalanced data |
 | [Secure-Auction-Pedersen-Commitments](https://github.com/Abdelrahmanshaheen1/Secure-Auction-Pedersen-Commitments) | Applied Cryptography | Commitments, ZK proofs, MPC |
-| [RSA-Java-Implementation](https://github.com/Abdelrahmanshaheen1/RSA-Java-Implementation) | Applied Cryptography | RSA from scratch, verified round-trip |
-| [DES-CBC-Notebook](https://github.com/Abdelrahmanshaheen1/DES-CBC-Notebook) | Applied Cryptography | DES Feistel network + CBC chaining from scratch |
+| [RSA-Java-Implementation](https://github.com/Abdelrahmanshaheen1/RSA-Java-Implementation) | Applied Cryptography | RSA from scratch, plus OAEP padding tested against the JDK |
+| [DES-CBC-Notebook](https://github.com/Abdelrahmanshaheen1/DES-CBC-Notebook) | Applied Cryptography | DES + CBC from scratch, key schedule checked against the standard test vector |
 | [HR-Time-Management-System](https://github.com/Abdelrahmanshaheen1/HR-Time-Management-System) | Software Engineering | Full-stack NestJS + Next.js |
 | [Game-of-Memory-Cpp](https://github.com/Abdelrahmanshaheen1/Game-of-Memory-Cpp) | Software Engineering | C++ OOP, abstract classes, virtual dispatch |
+| [aot_game](https://github.com/Abdelrahmanshaheen1/aot_game) | Software Engineering | Java + JavaFX lane-defense game, engine tested headlessly in CI |
 
 ---
 
