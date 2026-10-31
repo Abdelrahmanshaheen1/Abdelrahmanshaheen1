@@ -58,7 +58,7 @@ End-to-end fraud detection pipeline comparing five classification models (Logist
 Ranking 101,441 webpages by risk of an impressions decline, evaluated on a holdout grouped by client. The top-20 list from a Logistic Regression model was right 17 times out of 20 (Precision@20 0.85) against 10 out of 20 (0.50) for a simple CTR baseline, and the write-up spells out what the model cannot show.
 
 🔒 **[Secure Auction — Pedersen Commitments](https://github.com/Abdelrahmanshaheen1/Secure-Auction-Pedersen-Commitments)**
-A cryptographic sealed-bid auction protocol built from scratch: secret sharing, Pedersen commitments, zero-knowledge range proofs, and secure multi-party computation.
+A sealed-bid auction built from scratch: Pedersen commitments on secp256k1, a zero-knowledge range proof from bit commitments and OR-proofs, and a 3-server MPC maximum in which only the winner and the price are revealed. 110 tests, including forged-proof and cheating-bidder attacks; the README spells out what is simulated.
 
 🧠 **[Advanced Machine Learning Projects](https://github.com/Abdelrahmanshaheen1/Advanced-Machine-Learning-Projects)**
 Three projects in one: clustering validation (Silhouette/Davies-Bouldin/Calinski-Harabasz), image captioning (InceptionV3 + LSTM), and emotion classification comparing an RNN, a fine-tuned transformer, and LLM prompting strategies.
@@ -73,7 +73,7 @@ Three projects in one: clustering validation (Silhouette/Davies-Bouldin/Calinski
 | [flyrank-ml-internship](https://github.com/Abdelrahmanshaheen1/flyrank-ml-internship) | Machine Learning | Capstone: page-review ranking, Precision@20 0.85 vs 0.50 baseline |
 | [Advanced-Machine-Learning-Projects](https://github.com/Abdelrahmanshaheen1/Advanced-Machine-Learning-Projects) | Machine Learning | Clustering, captioning, emotion classification |
 | [Employee-Attrition-Classification](https://github.com/Abdelrahmanshaheen1/Employee-Attrition-Classification) | Machine Learning | Accuracy-paradox case study on imbalanced data |
-| [Secure-Auction-Pedersen-Commitments](https://github.com/Abdelrahmanshaheen1/Secure-Auction-Pedersen-Commitments) | Applied Cryptography | Commitments, ZK proofs, MPC |
+| [Secure-Auction-Pedersen-Commitments](https://github.com/Abdelrahmanshaheen1/Secure-Auction-Pedersen-Commitments) | Applied Cryptography | Pedersen commitments, ZK range proof, secure MPC maximum, attack tests |
 | [RSA-Java-Implementation](https://github.com/Abdelrahmanshaheen1/RSA-Java-Implementation) | Applied Cryptography | RSA from scratch, plus OAEP padding tested against the JDK |
 | [DES-CBC-Notebook](https://github.com/Abdelrahmanshaheen1/DES-CBC-Notebook) | Applied Cryptography | DES + CBC from scratch, key schedule checked against the standard test vector |
 | [HR-Time-Management-System](https://github.com/Abdelrahmanshaheen1/HR-Time-Management-System) | Software Engineering | Full-stack NestJS + Next.js |
